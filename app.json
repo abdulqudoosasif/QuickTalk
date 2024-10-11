@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Wallpaper-App",
-    "slug": "Wallpaper-App",
+    "name": "whatsapp",
+    "slug": "whatsapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "whatsapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdulqudoosgujjar.whatsapp"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +31,8 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths": true
     }
   }
 }
